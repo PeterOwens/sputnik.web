@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sputnik</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sputnik Site">
+    <meta name="author" content="Bastion Fennell">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  </head>
+
+  <body>
+    <div style="height: 30px"></div>
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+                <img class="header" src="assets/img/sputnik-header.png" />
+            </div>
+            <div class="span-half"></div>
+            <div class="span6"></div>
+            <div class="span2">
+                <p class="top-bar"><a href="http://www.dell.com/us/business/p/xps-13-linux/pd" target="_blank">buy now</a> &nbsp | &nbsp <a href="https://github.com/sputnik" target="_blank"><i class="icon-large icon-github"></i></a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span5"></div>
+            <div class="span6">
+                <ul class="nav nav-pills sputton">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">Docker Containers<b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="menuitem" tabindex="-1"><a href="https://github.com/sputnik/sputnik-emacs">Emacs</a></li>
+                            <li role="menuitem" tabindex="-1"><a href="https://github.com/sputnik/sputnik-example">Example</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://en.community.dell.com/techcenter/os-applications/f/4613.aspx">Forum</a></li>
+                    <li><a href="assets/file/Dell XPS 13 Developer Edition Spec Sheet.pdf">XPS 13 developer edition</a></li>
+                    <li><a href="http://www.ubuntu.com/partners/dell/dellxps">Ubuntu</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-bottom">
+        <div class="banner-borders">
+            <div class="banner">
+                <div class="center">
+                    <div class="span1"></div>
+                    <div class="span-banner-content">
+                        <h3>Pro-ject Sput-nik &nbsp
+                            <audio id="sputnik-audio" preload="auto" src="assets/audio/audio.wav" type="audio/wav"></audio>
+                            <a href="javascript:play_single_sound()"><i style="color:#FFFFFF" class="icon-volume-down"></i></a>
+                        </h3>
+                        <h3><i>n.</i></h3>
+                        <br>
+                        <p>Project Sputnik began life as a scrappy skunk works project
+                        at Dell. The idea was to work with the developer community
+                        to pilot a solution based on Ubuntu 12.04 LTS and the Dell
+                        XPS 13 ultrabook. At the end of 2012, the Dell XPS 13 developer
+                        edition debuted as an official product.</p>
+                        <br>
+                        <p>The three main components of Project Sputnik are:</p>
+                        <p>1) the Device, 2) Docker Containers, and 3) the Cloud Launcher</p>
+                        <br>
+                        <button class="button" onClick="window.open('https://github.com/sputnik', '_blank')"><i class="icon-large icon-github"></i> View on GitHub</button>
+                    </div>
+                    <div class="span-banner-img"><img src="assets/img/xps13-sputnik-graphic.png" /></div>
+                </div>
+            </div>
+        </div>
+        <div class="under-banner"></div>
+            <div class="row bottom first">
+                <div class="center">
+                    <div class="span3">
+                        <img class="icon" src="assets/img/laptop-icon.png" />
+                    </div>
+                    <div class="span10">
+                        <br>
+                        <p class="red-october">DEVICE</p>
+                        <p>The XPS 13 developer edition comes with Ubuntu 12.04 
+                        LTS along with the necessary drivers and a core set of tools
+                        and utilities pre-loaded. It also comes with one year of ProSupport.</p>
+                        <br>
+                        <p><b>Specifications:</b></p>
+                        <div class="span4 details">
+                            <li><span class="emphasis">Processor:</span> 3rd generation Intel i7</li>
+                            <li><span class="emphasis">Display:</span> 13.3" full HD (1080p)</li>
+                            <li><span class="emphasis">System Memory:</span> 8GB</li>
+                        </div>
+                        <div class="span4 details">
+                            <li><span class="emphasis">Graphics:</span> Intel HD graphics 4000</li>
+                            <li><span class="emphasis">Storage:</span> 256GB SSD drive</li>
+                        </div>
+                        <br>
+                        <p class="text-right">
+			<button class="button" onClick="window.open('assets/file/Dell XPS 13 Developer Edition Spec Sheet.pdf', '_blank')">Read More</button>
+			</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <img class="test" src="assets/img/background-alt.png" />
+            <div class="middle-section row bottom">
+                <div class="center">
+                    <div class="span3">
+                        <img class="icon" src="assets/img/cloud-icon.png" />
+                    </div>
+                    <div class="span10">
+                        <p class="red-october">CLOUD LAUNCHER</p>
+                        <p>The cloud launcher enables you to create "microclouds"
+                        on your laptop, simulating an at-scale environment, and
+                        then deploy that environment seamlessly to the cloud. The launcher utilizes a script to deploy your Docker Containers on compatible Cloud platforms including RedHat OpenShift, AWS and Google.</p>
+                        <br>
+                        <p>We are currently working with the Sputnik and Docker communities to provide some really useful containers to kick start your Cloud projects.</p>
+                        <br>
+                        <p class="text-right"><button class="button" onClick="window.open('https://github.com/sputnik/sputnik-cloudlauncher', '_blank')"><i class="icon-large icon-github"></i> View on GitHub</button></p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="row bottom">
+                <div class="center">
+                    <div class="span3">
+                        <img class="icon" src="assets/img/profile-icon.png" />
+                    </div>
+                    <div class="span10">
+                        <p class="red-october">PROFILE TOOL</p>
+                        <br>
+                        <p>The profile tool is designed to provide access to a
+                        library of community created profiles, such as Ruby and
+                        Android etc, on github. The tool is then used to configure
+                        the profiles and quickly set up your development environments
+                        and tool chains.</p>
+                        <br>
+                        <p class="text-right"><button class="button" onClick="window.open('https://github.com/sputnik/sputnik-profile', '_blank')"><i class="icon-large icon-github"></i> View on GitHub</button></p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div style="height: 50px"></div>
+            <div class="row">
+                <div class="span9">
+                    <div style="height: 75px"></div>
+                    <p>2012-2013 Dell US, Inc. All rights reserved.</p>
+                </div>
+                <div class="span1"></div>
+                <div class="span2">
+                    <p class="text-center"><img src="assets/img/sputnik-footer.png" /></p>
+                </div>
+            </div>
+        </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript">
+        function play_single_sound() {
+            document.getElementById("sputnik-audio").play();
+        }
+    </script>
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-42845479-1', 'sputnik.github.io');
+	  ga('send', 'pageview');
+    </script>
+  </body>
+</html>
